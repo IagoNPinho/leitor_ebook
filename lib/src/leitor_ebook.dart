@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'view/home_page.dart';
+import 'view/page/home_page.dart';
 
 
 class LeitorEbook extends StatelessWidget {
@@ -14,7 +14,7 @@ class LeitorEbook extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
